@@ -1,0 +1,30 @@
+{
+  "name": "4_hands-code",
+  "version": "1.0.0",
+  "description": "A server for the portfolio webside of the 4_hands-code team",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravellerOnTheRun/4_hands-code-server-side.git"
+  },
+  "author": "alexsplatter/TravellerOnTheRun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravellerOnTheRun/4_hands-code-server-side/issues"
+  },
+  "homepage": "https://github.com/TravellerOnTheRun/4_hands-code-server-side#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9"
+  }
+}
